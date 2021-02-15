@@ -26,8 +26,8 @@ class App extends Component{
       let previousTileIndex = state.previousTileIndex
 
       if(toBeCleared !== null) {
-        tile[toBeCleared[0]].selected = false
-        tile[toBeCleared[1]].selected = false
+        tiles[toBeCleared[0]].selected = false
+        tiles[toBeCleared[1]].selected = false
         toBeCleared = null
       }
 
